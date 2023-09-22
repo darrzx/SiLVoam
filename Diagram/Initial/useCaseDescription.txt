@@ -1,0 +1,10 @@
+- Edit Appointment
+	harus menyesuaikan jadwal appointment dari dokter tersebut juga dan kondisi2 lain seperti room number, bed number, dll. karena tidak boleh bertabrakan dengan jadwal lain.
+- Edit Prescription Detail
+	harus cek dulu apakah sebuah prescription statusnya masih queue atau tidak, jika masih maka bisa dilakukan edit Prescription lalu bisa diarahin ke pharmacist untuk complete prescription.
+- Assign Patients to another room or bed
+	rumitnya bisa dijalanin 2 aktor dan harus ada validasi dimana pasien tersebut sudah terregister sama administration staff, dan ketika ingin assign ke sebuah bed, bed tersebut harus kosong dan tidak ada pasien lain yang ter assign disitu.
+- Complete Appointment
+	harus cek dulu apakah sebuah appointment sudah berstatus completed atau belum pada pasien sebelumnya. dan harus mengecek apakah jadwal selanjutnya dari pasien sekarang terdapat konflik jadwal terhadap pasien lainnya atau tidak.
+- Add non routines jobs
+	harus cek apakah staff shift sesuai dengan hari yang akan di add non routines job, dan harus melakukan sorting dari workload staff dari yang terrendah hingga terbanyak, dan harus diprioritaskan job yang terrendah dahulu.
